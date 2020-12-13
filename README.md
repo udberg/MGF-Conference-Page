@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# HTML/CSS Capstone: MISK GLOBAL FORUM 2020
 
 > One paragraph statement about the project.
 
