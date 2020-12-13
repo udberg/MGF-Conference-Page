@@ -2,7 +2,7 @@
 
 # HTML/CSS Capstone: MISK GLOBAL FORUM 2020
 
-> One paragraph statement about the project.
+> This project is a website for the MISK GLOBAL FORUM that took place in Saudi Arabia from the 12th to 14th November 2020.
 
 ![screenshot](./capstone.png)
 
@@ -10,9 +10,11 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS
+- BOOTSTRAP, SASS
+- Linters Specifically Stylelint, Webhint, Lighthouse.
+- VSCode on MacOS (with Prettier and Live Server extensions)
+- Chrome DEV Tools
 
 ## Live Demo
 
