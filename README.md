@@ -6,7 +6,7 @@
 
 ![screenshot](./capstone-mockup.png)
 
-Additional description about the project and its features.
+To cap off the HTML/CSS part of Microverse Technical Curriculum, I was given [this design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) of [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)'s to follow, mirroring its structure, typography and colors as I built my own conference website. I opted to build a website for the just concluded Misk Global Forum 2020 which took place between the 12th and 14th of November 2020 in Riyadh, Saudi Arabia, where I was a lucky and proud attendant. The website is built mirroring the afore-mentioned features in its exact entirety. 
 
 ## Built With
 
@@ -21,25 +21,28 @@ Additional description about the project and its features.
 [Live Demo Link](https://livedemo.com)
 
 
+
+## Live Video Presentation
+
+[Live Video Link](https://livedemo.com)
+
+
 ### To get a local copy up and running follow these simple example steps.
 
-Open Terminal.
+- Open Terminal.
 
-Navigate to your desired location to download the contents of this repository.
+- Navigate to your desired location to download the contents of this repository.
 
-Copy and paste the following code into the Terminal:
+- Copy and paste the following code into the Terminal:
 
-git clone https://github.com/udberg/html-css-capstone.git
+- git clone https://github.com/udberg/html-css-capstone.git
 
-Hit enter.
+- Hit enter.
 
-Once the repository has been cloned, open main.html in a browser of your choosing. From there, you may also navigate to the "About" and "Tickets" pages.
+- Once the repository has been cloned, open main.html in a browser of your choosing. From there, you may also navigate to the "About" and "Tickets" pages.
 
-Have fun!
+- Have fun!
 
-### Prerequisites
-
-### Setup
 
 ### Linters
 
@@ -54,6 +57,8 @@ npx stylelint "*/.{css,scss}"
 
 
 ### Deployment
+
+Install and run a live server plugin on your Text editor.
 
 
 
@@ -73,15 +78,19 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](issues/).
 
+
+
 ## Show your support
 
 Give a ⭐️ if you like this project! They're free...!
 
+
+
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), for her design.
+- Hat tip to [Microverse](https://www.microverse.org/) for their readme template
+
 
 ## 📝 License
 
