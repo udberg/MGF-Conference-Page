@@ -1,0 +1,472 @@
+:root {
+  --background: #272a31;
+  --textColor: #ec5242;
+  --others: #d3d3d3;
+}
+
+@font-face {
+  font-family: "COCOGOOSE";
+  src: url("../fonts/Cocogoose_trial.woff") format("woff"), url("../fonts/Cocogoose_trial.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--background);
+}
+
+/* header section */
+
+.top-nav {
+  background-color: var(--background);
+  text-align: right;
+  font-size: 0.9rem;
+}
+
+.socials {
+  margin: 0;
+}
+
+.socials li {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+}
+
+.nav-anchor {
+  text-decoration: none;
+  color: var(--others);
+}
+
+.nav-anchor:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-nav-container {
+  margin-top: 0;
+  background: #fff !important;
+}
+
+.n-a-link {
+  font-size: 0.85rem;
+}
+
+.n-a-link:hover {
+  color: var(--textColor) !important;
+}
+
+.my-button {
+  border-width: 0.3rem;
+  border-color: var(--textColor);
+}
+
+.navbar-toggler {
+  border: unset;
+}
+
+.menu {
+  font-size: 3rem;
+  color: var(--background);
+}
+
+@media only screen and (max-width: 1024px) {
+  .my-button {
+    border-width: 0.2rem;
+    font-size: x-small;
+  }
+
+  .nav-anchor {
+    font-size: x-small;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .top-nav {
+    display: none;
+  }
+
+  .main-nav-container {
+    background: url('../img/Pattern-Randomized.svg') bottom !important;
+    background-size: cover !important;
+  }
+}
+
+/* main section */
+
+.top-content {
+  background-image: url('../img/Pattern-Randomized.svg');
+  background-size: cover;
+}
+
+.sub-head {
+  color: var(--textColor);
+}
+
+.banner,
+.other-banner {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-weight: bolder;
+  font-size: 5rem;
+  line-height: 1;
+  background: linear-gradient(45deg, rgba(255, 0, 0, 1) 0%, rgba(33, 3, 3, 1) 33%, rgba(236, 82, 66, 1) 56%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: var(--textColor);
+}
+
+.other-banner {
+  font-size: 3.5rem;
+  background: unset;
+  -webkit-text-fill-color: unset;
+  -webkit-background-clip: unset;
+}
+
+.description {
+  background: rgb(243, 243, 243);
+  font-size: small;
+  border: 2px solid;
+  border-color: #fff;
+}
+
+.about-desc {
+  margin: 5rem auto;
+  width: 80%;
+  font-size: medium;
+  border-color: rgb(243, 243, 243);
+  background: #fff;
+}
+
+.about-contact {
+  margin: 5rem auto;
+  width: 80%;
+}
+
+.date {
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 2rem;
+  color: var(--background);
+}
+
+.venue {
+  font-size: x-large;
+}
+
+.main-program {
+  text-align: center;
+  background-image: url('../img/Diamond-Sunset.svg');
+  background-size: cover;
+}
+
+.about-main {
+  background-image: unset;
+  background-size: unset;
+  color: var(--background);
+  background-color: rgb(247, 247, 247);
+}
+
+.about-logo {
+  margin: 1rem auto;
+  width: 60%;
+}
+
+.tickets {
+  width: 70%;
+  margin-bottom: 2.5rem;
+}
+
+.stripe-back {
+  background-image: linear-gradient(45deg, #ec5242 12.5%, #fff 12.5%, #fff 25%, #3d6f8e 25%, #3d6f8e 37.5%, #fff 37.5%, #fff 5%, #ec5242 5%, #ec5242 62.5%, #fff 62.5%, #fff 75%, #3d6f8e 75%, #3d6f8e 87.5%, #fff 87.5%, #fff 100%);
+  background-size: 40px 40px;
+  overflow-x: auto;
+}
+
+.rad {
+  color: var(--textColor);
+  font-weight: bold;
+}
+
+.lunch-head {
+  background: var(--others);
+}
+
+.bring-up {
+  position: relative;
+  top: -1.5rem;
+  width: 3.5%;
+}
+
+.rounded-header {
+  width: auto;
+  max-width: max-content;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
+.past {
+  width: 44%;
+  height: 37vh;
+}
+
+.past-one {
+  background: url('https://i0.wp.com/i.onthe.io/smngoz6dnks0ojudi.aa7b9b05.jpg?resize=640%2C425&ssl=1') no-repeat center;
+  background-size: cover;
+}
+
+.past-two {
+  background: url('https://cdn.bigdutchman.com/fileadmin/content/egg-poultry-pig/press/news/photos/alt_2018/2018_03_06_Seminar-Nigeria-Schweinehaltung/Schweinehaltung-pig-production-Gruppenphoto-Seminar-Nigeria-Big-Dutchman_72.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.about-past-title {
+  width: 100%;
+  height: 100%;
+  background-color: #ec5342a2;
+}
+
+.make-white {
+  color: white;
+}
+
+.programmes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--others);
+}
+
+.program {
+  width: 19.8%;
+  background: #adabab38;
+  padding: 0.7rem;
+  height: 14rem;
+  line-height: 1.1;
+}
+
+.under-line {
+  border: 1px solid var(--textColor);
+  width: 3rem;
+  margin: 0 auto;
+}
+
+.p-head {
+  font-size: 1.2rem;
+  color: var(--textColor);
+}
+
+.whole-under {
+  text-decoration: underline;
+}
+
+.featured-speakers {
+  color: var(--background);
+}
+
+.r-pos {
+  background-image: url('../img/blank.png');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 5rem 5rem;
+}
+
+.speaker-line {
+  width: 7%;
+}
+
+.join-button {
+  background-color: var(--textColor);
+  color: var(--others);
+  font-weight: bolder;
+  font-size: x-large;
+  padding: 2rem 4rem;
+}
+
+.bullet-img {
+  width: 0.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .sub-head {
+    font-size: large;
+  }
+
+  .banner {
+    font-size: 4rem;
+  }
+
+  .description {
+    min-width: 75%;
+  }
+
+  .program {
+    width: 32%;
+    padding: 0.5rem;
+    height: 10rem;
+  }
+
+  .p-head {
+    font-size: 1.2rem;
+  }
+
+  .p4,
+  .p5 {
+    display: none;
+  }
+
+  .past {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .tickets {
+    width: 85%;
+  }
+
+  .bring-up {
+    top: -1.2rem;
+    width: 4%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .top-content {
+    padding-top: 2.5rem;
+  }
+
+  .sub-head {
+    font-size: x-large;
+  }
+
+  .banner {
+    font-size: 2.5rem;
+  }
+
+  .description {
+    min-width: 100%;
+    line-height: 1.7;
+    font-size: 1rem;
+  }
+
+  .date {
+    font-size: 1.5rem;
+  }
+
+  .venue {
+    font-size: medium;
+  }
+
+  .programmes {
+    flex-direction: column;
+    margin: 2.5rem 0;
+  }
+
+  .program {
+    width: 100%;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    height: auto;
+  }
+
+  .p-head {
+    font-size: 1.1em;
+    overflow-wrap: break-word;
+  }
+
+  .p-details {
+    font-size: medium;
+  }
+
+  .whole-under {
+    display: none;
+  }
+
+  .sp3,
+  .sp4,
+  .sp5,
+  .sp6 {
+    display: none;
+  }
+
+  .other-banner {
+    font-size: 2.5rem;
+  }
+
+  .about-contact {
+    margin: 3.5rem auto;
+    width: 100%;
+  }
+
+  .about-logo {
+    width: 80%;
+  }
+
+  .about-past-symposium {
+    flex-direction: column;
+  }
+
+  .past {
+    width: 100%;
+    height: 15rem;
+  }
+
+  .tickets {
+    width: 100%;
+  }
+
+  .bring-up {
+    top: -1rem;
+    width: 5%;
+  }
+}
+
+/* footer section */
+
+.partners-section,
+.about-footer {
+  color: rgb(182, 182, 182);
+  background: #414141;
+}
+
+.partners {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  align-items: end;
+  color: var(--others);
+  flex-wrap: wrap;
+}
+
+.partner {
+  width: 23%;
+  margin: 0.08rem auto;
+  justify-self: center;
+  align-content: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+  .partner {
+    width: 45%;
+  }
+
+  .sub-item {
+    display: none;
+  }
+
+  .about-footer {
+    background-color: var(--others);
+    color: var(--background);
+  }
+}
