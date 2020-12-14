@@ -4,7 +4,7 @@
 
 > This project is a website for the MISK GLOBAL FORUM that took place in Saudi Arabia from the 12th to 14th November 2020.
 
-![screenshot](./capstone.png)
+![screenshot](./capstone-mockup.png)
 
 Additional description about the project and its features.
 
