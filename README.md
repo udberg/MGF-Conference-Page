@@ -81,7 +81,6 @@ Feel free to check the [issues page](https://github.com/udberg/html-css-capstone
 Give a ⭐️ if you like this project! They're free...!
 
 
-
 ## Acknowledgments
 
 - Hat tip to [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), for her design.
