@@ -55,12 +55,9 @@ Run the following command to check linters
 npx stylelint "*/.{css,scss}"
 
 
-
 ### Deployment
 
 Install and run a live server plugin on your Text editor.
-
-
 
 ## Author
 
@@ -71,12 +68,11 @@ Install and run a live server plugin on your Text editor.
 - LinkedIn: [Uduak John](https://www.linkedin.com/in/uduak-john-090059105/)
 
 
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/udberg/html-css-capstone/issues).
 
 
 
