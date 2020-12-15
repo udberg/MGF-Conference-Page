@@ -24,7 +24,7 @@ To cap off the HTML/CSS part of Microverse Technical Curriculum, I was given [th
 
 ## Live Video Presentation
 
-[Live Video Link](https://livedemo.com)
+[Live Video Link](https://www.loom.com/share/475828aaf27047d189dbfdfb01a7526c)
 
 
 ### To get a local copy up and running follow these simple example steps.
