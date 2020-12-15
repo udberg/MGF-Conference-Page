@@ -39,7 +39,7 @@ To cap off the HTML/CSS part of Microverse Technical Curriculum, I was given [th
 
 - Hit enter.
 
-- Once the repository has been cloned, open main.html in a browser of your choosing. From there, you may also navigate to the "About" and "Tickets" pages.
+- Once the repository has been cloned, open index.html in a browser of your choosing. From there, you may also navigate to the "About" and "Tickets" pages.
 
 - Have fun!
 
@@ -78,7 +78,7 @@ Feel free to check the [issues page](https://github.com/udberg/html-css-capstone
 
 ## Show your support
 
-Give a ⭐️ if you like this project! They're free...!
+Leave a ⭐️ if you like this project! They're free...!
 
 
 ## Acknowledgments
