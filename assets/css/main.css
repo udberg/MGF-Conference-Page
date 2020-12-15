@@ -54,7 +54,7 @@ a {
 
 .main-nav-container {
   margin-top: 0;
-  background: #fff /*!important*/;
+  background: #fff;
 }
 
 .n-a-link {
@@ -62,7 +62,7 @@ a {
 }
 
 .n-a-link:hover {
-  color: var(--textColor) /*!important;*/
+  color: var(--textColor);
 }
 
 .my-button {
